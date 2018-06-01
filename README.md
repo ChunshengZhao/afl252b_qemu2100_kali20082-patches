@@ -50,7 +50,7 @@ Set the "afl-qemu-trace" variable:
 root@kali:\~/Downloads/afl-2.52b/testcases/archives/common/rar# export AFL_PATH=/root/Downloads/afl-2.52b  
 
 root@kali:\~/Downloads/afl-2.52b/testcases/archives/common/rar# mkdir out  
-root@kali:\~/Downloads/afl-2.52b/testcases/archives/common/rar# afl-fuzz -i ./ -o ./out/ -Q rar t
+root@kali:\~/Downloads/afl-2.52b/testcases/archives/common/rar# afl-fuzz -i ./ -o ./out/ -Q rar t @@
 ![GO](https://raw.githubusercontent.com/ChunshengZhao/afl252b_qemu2100_kali20082-patches/master/pic/kali-2018-05-31-22-40-38.jpg)
 
 ## Thanks:  
